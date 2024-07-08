@@ -1,0 +1,79 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width:100%;
+}
+h2{
+  color: aquamarine;
+  letter-spacing: 0.9px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-field{
+  width:69%;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-field input{
+  width:60%;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(156, 186, 67);
+  font-family: Impact;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.input-field .btn{
+  padding: 7px 15px;
+  color:rgb(83, 180, 212);
+  outline: none;
+  border:none;
+  cursor: pointer;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.todos{
+  width: 70%;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  width:70%;
+} 
+.list-items{
+  width: 90%;
+  background-color: white;
+  padding : 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+  border-radius: 5px;
+}
+.list-items p{
+  color:rgb(13, 143, 71);
+  font-size:18px;
+  letter-spacing: 0.5px;
+}
+.list-items button{
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.list-items button:hover{
+  background-color: red;
+  color: rgb(52, 9, 160);
+}
