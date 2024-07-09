@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation a{
+    text-decoration: none;
+    color: green;
+}
+.hero{
+    height: 80vh;
+    background: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1{
+    font-family: 'Qwigley', cursive;
+    margin-bottom: 0;
+}
+.text2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text3{
+    width: 50%;
+}
+.pic{
+    width: 200px;
+}
+.layer{
+    height:20vh;
+    background: url('images/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:60px;
+}
+@media(max-width:570px){
+    .d-flex>.organic,.faq{
+        display: none;
+
+    }
+    a.fs-4{
+        padding-right:75%;
+    }
+}
