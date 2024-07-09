@@ -13,6 +13,16 @@ body{
     text-decoration: none;
     color: darkgreen;
 }
+.nav a:hover{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(146, 222, 120, 0.4);
+    color:rgb(160, 189, 53);
+}
+.contact a:hover{
+    color:green;
+    background-color: yellowgreen;
+}
 .gap{
     gap: 3rem;
 }
@@ -44,8 +54,10 @@ body{
     .gap{
         gap: 0;
     }
-    div.image img{
-        display: none;
+    div.image img,.container .image img{
+        padding:10px;
+        border-radius: 20px;
+        width:100%;
     }
 
 
