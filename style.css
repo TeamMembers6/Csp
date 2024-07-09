@@ -3,7 +3,7 @@
 }
 
 .navbar-brand{
-    color:black;
+    color:lightpink;
     font-family: 'Courgette', cursive;
     font-size: 25px;
     background: url('images/page-title-layer.png');
@@ -17,7 +17,7 @@
     background-color: aliceblue;
 }
 .nav-link{
-    color: white;
+    color: skyblue;
 }
 .navbar-nav{
     font-size: 18px;
