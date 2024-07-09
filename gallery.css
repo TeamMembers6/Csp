@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.module{
+    text-decoration: none;
+    color:black;
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+}
+.container .row img{
+    border-radius: 5%;
+    width: 100%;
+    
+}
+
+.carousel{
+    width: 40vw;
+}
+.layer{
+    height:10vh;
+    background: url('images/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:35px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-left: 0;
+    padding-right: 0; 
+}
+.container-fluid .row h3{
+    color:rgb(191, 215, 58);
+}
+/* .container-fluid .slide .image .carousel-item img{
+   width: 100%;
+   border-radius: 10px;
+} */
+
+.row {
+    margin-right: 0;
+}
+.navigation{
+    margin-left: 71px;
+}
+@media(max-width:570px){
+    .carousel{
+        width:100vw;
+    }
+    .layer{
+        height: 10vh;
+    }
+    .navigation{
+        margin-left: 20px;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
