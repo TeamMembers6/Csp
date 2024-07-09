@@ -1,5 +1,5 @@
 .brand{
-    color:black;
+    color:rgb(197, 22, 130);
     font-family: 'Courgette', cursive;
     font-size: 25px;
     border-radius: 15px;
@@ -11,33 +11,43 @@
     color:darkgreen;
 }
 .faq-bg{
-    background: url('images/faq.jpg');
+    position: relative;
+}
+.faq-bg img{
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+    
 
 }
-.text{
-    width: 50%;
+.faq-bg .text{
+    position: absolute;
+    top:0;
 }
 .bg-text{
-    background:rgba(255,255,255,.6);
+    color: aqua;
     position: relative;
-    top: 100px;
-    left: 90%;
+ 
 }
 details[open].FAQs{
     background: rgba(0, 255, 0, .2);
     transition: all 0.4s ease-in-out;
     
 }
+.copy{
+    color:blue;
+}
 @media(max-width:570px){
+    .faq-bg{
+        height: 500px;
+    }
     .text{
         width: 100%;
     }
     .bg-text{
         position:relative;
-        top: 200px;
+       top:400px;
         left: 0;
     }
     .hero{
