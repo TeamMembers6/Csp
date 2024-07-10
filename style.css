@@ -45,9 +45,8 @@
     font-family: 'Kaushan Script', cursive;
 }
 .title{
-    
     position: relative;
-    top: 24%;
+    top: 30%;
     color: rgb(75, 50, 68);
 }
 .layer{
@@ -101,10 +100,7 @@
 }
 
 @media(max-width:576px){
-     .header{
-        width: 100%; 
-        height: 400px; 
-     } 
+    
     .container-fluid{
         position: relative;
     }
@@ -129,24 +125,16 @@
         color: white;
         text-align: center;
     }
-    .title{
-        top:19%;
-    }
+    
     
     .layer2{
         height: 10vh;
         top: 30px;
     }
    .layer{
-       position: relative;
        height: 10vh;
-       top: -121%;
+       bottom:108px;
 }
-    /* .layer{
-        height: 10vh;
-       top:10%;
-       background-color: aqua;
-      
-    } */
+   
 
 }
