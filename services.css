@@ -11,8 +11,10 @@ body{
 }
 .nav a{
     text-decoration: none;
+   
     color: darkgreen;
 }
+
 .nav a:hover{
     padding: 4px;
     border-radius: 5px;
@@ -53,12 +55,17 @@ body{
     .gap{
         gap: 0;
     }
-    div.image img,.container .image img{
+    .container-sm .image img,.container .image img{
+        padding:10px;
+        border-radius: 20px;
+        width:100%;
+        
+    }
+}
+@media(min-width:570px) and (max-width:900px){ 
+    .container-sm .image img,.container .image img{
         padding:10px;
         border-radius: 20px;
         width:100%;
     }
-
-
-
 }
