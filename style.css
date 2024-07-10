@@ -10,6 +10,9 @@
     border-radius: 15px;
     background-position: 8%;
 }
+.navbar-brand:hover{
+    color: rgb(220, 144, 30);
+}
 .navbar-toggler:focus{
     box-shadow:none;
 }
@@ -19,12 +22,16 @@
 .nav-link{
     color: rgb(90, 188, 226);
 }
+.nav-link:hover{
+    color:#fff;
+}
 .navbar-nav{
     font-size: 18px;
 }
-.header{
-    
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDtbE51sG2fEyd3X7TTzuyBSCjGJ3j8ysXg&s');
+
+.header{ 
+    width: 100%;
+    background: url('images/internet.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,8 +45,10 @@
     font-family: 'Kaushan Script', cursive;
 }
 .title{
+    
     position: relative;
     top: 24%;
+    color: rgb(75, 50, 68);
 }
 .layer{
     height:20vh;
@@ -92,6 +101,19 @@
 }
 
 @media(max-width:576px){
+     .header{
+        width: 100%; 
+        height: 400px; 
+     } 
+    .container-fluid{
+        position: relative;
+    }
+
+    .container-fluid button{
+        position: absolute;
+      right:10px;
+        top:5px;
+    }
     
     .row>.col-sm-12{
         margin-bottom: 15px;
@@ -103,16 +125,28 @@
         margin-bottom: 20px;
     }
     .hero{
+        
         color: white;
         text-align: center;
     }
+    .title{
+        top:19%;
+    }
+    
     .layer2{
         height: 10vh;
         top: 30px;
     }
-    .layer{
+   .layer{
+       position: relative;
+       height: 10vh;
+       top: -121%;
+}
+    /* .layer{
         height: 10vh;
-        bottom: 95px;
-    }
+       top:10%;
+       background-color: aqua;
+      
+    } */
 
 }
