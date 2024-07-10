@@ -62,7 +62,7 @@ body{
         
     }
 }
-@media(min-width:570px) and (max-width:900px){ 
+@media(min-width:570px) and (max-width:1050px){ 
     .container-sm .image img,.container .image img{
         padding:10px;
         border-radius: 20px;
