@@ -29,12 +29,11 @@
     font-size: 18px;
 }
 
-.header{ 
+.header { 
     width: 100%;
-    background: url('images/internet.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('images/internet1.jpg') no-repeat center center;
+    height: 100vh; /* Full height for large screens */
+    background-size: cover; /* Cover the entire header */
     padding: 20px;
 }
 .hero{
@@ -47,7 +46,7 @@
 .title{
     position: relative;
     top: 30%;
-    color: rgb(75, 50, 68);
+    color: rgb(194, 91, 165);
 }
 .layer{
     height:20vh;
@@ -55,7 +54,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    bottom: 19%;
+    bottom: 21%;
 }
 .serv-head{
     font-family: 'Kaushan Script', cursive;
@@ -104,12 +103,17 @@
     .container-fluid{
         position: relative;
     }
-
+   
     .container-fluid button{
         position: absolute;
-       right:-5px;
+       right:10px;
         top:5px;
     }
+    
+        .header {
+            height: 100vh; /* Further reduce height for mobile devices */
+            padding: 10px; /* Adjust padding for smaller screens */
+        }
     
     .row>.col-sm-12{
         margin-bottom: 15px;
@@ -133,8 +137,13 @@
     }
    .layer{
        height: 10vh;
-       bottom:110px;
+       bottom:113px;
 }
    
 
+}
+@media(max-width: 768px) {
+    .header {
+        height: 100vh; /* Reduce height for tablets */
+    }
 }
